@@ -1,3 +1,3 @@
 # awa
 
-![octocat](awa.jpg "octocat")
+![octocat](awa.gif "octocat")
