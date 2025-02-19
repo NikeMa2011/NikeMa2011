@@ -47,7 +47,7 @@ function winkEyes() {
 function normalF() {
     winkEyes();
     setTimeout(() => {
-        if (Math.random() >= 0.5) {
+        if (Math.random() > 0.5) {
             sleepF();
         } else {
             happyF();
