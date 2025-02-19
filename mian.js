@@ -31,6 +31,7 @@ function happyF() {
     normalMode = false;
     text.innerHTML = happy;
     setTimeout("text.innerHTML = normal", Math.floor(Math.random() * 6) * 1000);
+    normalF();
 }
 function winkEyes() {
     if (normalMode) {
