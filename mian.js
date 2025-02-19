@@ -24,7 +24,7 @@ function change(times, n) {
 }
 function sleepF() {
     normalMode = false;
-    let times = Math.floor((Math.random() * 5) ++);
+    let times = Math.floor((Math.random() * 5) + 2);
     change(times, 0);
 }
 function happyF() {
