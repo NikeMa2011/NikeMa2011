@@ -16,7 +16,6 @@ function change(times, n) {
             n = 0;
             times--;
         }
-        console.log(times);
         setTimeout("change(" + times + ',' + n + ")", 500);
     } else {
         normalMode = true;
@@ -25,7 +24,7 @@ function change(times, n) {
 }
 function sleepF() {
     normalMode = false;
-    let times = Math.floor(Math.random() * 5);
+    let times = Math.floor((Math.random() * 5) ++);
     change(times, 0);
 }
 function happyF() {
@@ -52,7 +51,7 @@ function normalF() {
         } else {
             happyF();
         }
-    }, Math.floor(Math.random() * 60) * 1000);
+    }, Math.floor(Math.random() * 20) * 1000);
 }
 
 normalF();
