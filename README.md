@@ -23,6 +23,5 @@
 
 
 ```
-中考结束啦! 以后要上IGCSE力(悲)
 
 <!-- made by my self awa -->
