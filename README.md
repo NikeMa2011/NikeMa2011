@@ -1,1 +1,1 @@
-![QR code](QRcode.jpg "扫一下看看")
+![图片没了]("image.gif")
